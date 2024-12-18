@@ -32,19 +32,51 @@ The project was developed as part of an academic curriculum, focusing on the end
 
 ---
 
-## 📂 Project Structure
-```plaintext
-Face-Detection-Project/
-├── data/                     # Sample input images
-├── src/                      # Source code
-│   ├── face_detection.py     # Main script for face detection
-│   ├── transforms.py         # Image transforms implementation
-│   ├── enhancement.py        # Enhancement techniques
-│   ├── restoration.py        # Restoration algorithms
-│   ├── segmentation.py       # Segmentation methods
-├── outputs/                  # Output images and results
-├── README.md                 # Project documentation
-└── requirements.txt          # Dependencies
 
-##View Results
-The processed results will be saved in the outputs/ directory.
+Here’s the README.md file with Getting Started, Prerequisites, and commands written in the same format while maintaining a professional tone:
+
+markdown
+Copy code
+# Face Detection Using OpenCV for Digital Image Processing
+
+## 📚 Overview
+This project implements a face detection system using **OpenCV** in Python, leveraging various concepts from **Digital Image Processing**. It covers image transforms, enhancement, restoration, segmentation, and compression, showcasing their practical applications.
+
+---
+
+## ✨ Key Features
+- **Face Detection**: Accurate face detection using Haar cascades.
+- **Image Transforms**: Discrete Fourier Transform (DFT), Discrete Cosine Transform (DCT), Haar Transform, and others.
+- **Image Enhancement**: Improved quality using spatial and frequency domain filters.
+- **Image Restoration**: Techniques for noise reduction and degradation correction.
+- **Image Segmentation**: Edge detection, thresholding, and region-based segmentation.
+- **Image Compression**: Explored lossless and lossy compression standards.
+
+---
+
+## 🛠️ Technologies & Tools
+- **Languages**: Python
+- **Libraries**: OpenCV, NumPy, Matplotlib
+- **Concepts**: Image transforms, filtering, segmentation, and compression.
+
+---
+
+🚀 Getting Started
+Prerequisites
+Python 3.8 or higher
+Libraries listed in requirements.txt
+
+Installation
+Clone the repository:
+git clone https://github.com/yourusername/Face-Detection-Project.git
+cd Face-Detection-Project
+
+Install dependencies:
+pip install -r requirements.txt
+
+Running the Project
+Execute the main script:
+python src/face_detection.py
+
+Results will be saved in the outputs/ directory.
+
