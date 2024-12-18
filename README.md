@@ -61,22 +61,5 @@ This project implements a face detection system using **OpenCV** in Python, leve
 
 ---
 
-🚀 Getting Started
-Prerequisites
-Python 3.8 or higher
-Libraries listed in requirements.txt
-
-Installation
-Clone the repository:
-git clone https://github.com/yourusername/Face-Detection-Project.git
-cd Face-Detection-Project
-
-Install dependencies:
-pip install -r requirements.txt
-
-Running the Project
-Execute the main script:
-python src/face_detection.py
-
 Results will be saved in the outputs/ directory.
 
